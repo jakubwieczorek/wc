@@ -19,6 +19,6 @@ class FileParserTest {
 
         // Then
         assertThat(words).doesNotContain( "”", "—dennis", "“tell", "scenes…")
-            .hasSize(54);
+            .hasSize(56);
     }
 }
